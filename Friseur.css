@@ -1,0 +1,460 @@
+
+*  {
+    font-family: 'Open Sans', sans-serif;     
+}
+
+
+#Body2 {
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+#myNavbar li.active a{
+    color: black;                    /* schriftfarbe info preise*/
+    background-color: antiquewhite; /* Farbe Info Preise*/
+}
+
+#myNavbar li a{
+    color: white;
+}
+
+#myNavbar li a:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+
+.navbar-brand:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.container-fluid{
+    background-color: #f2543a; /* Navbar Hintergrundfarbe! */ 
+}
+.navbar-header a {
+    color: white;
+}
+
+.navbar-custom .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+#dropdownMenu1 {
+    color: black;
+}
+
+#Head h2 {
+    font-size: 60px;
+    font-weight: 700;
+} 
+
+#Head {
+    text-align: center;
+    font-weight: 700;
+    padding-top: 5%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+} 
+
+#Head p3 {
+    color: #f2543a;
+    font-size: 30px !important;
+
+}
+
+.Bild img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 200px;
+    margin-bottom: 3%;
+    height: 220px;
+}
+
+#Info h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 3%;
+
+}
+
+#Info p3 {
+    text-align: justify;
+    display: block;
+    font-weight: 550;
+    font-size: 18px;
+}
+
+#Info p2 {
+    font-weight: 550;
+    font-size: 16px;    
+}
+#Preise h1 { 
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#Preise ul {
+    margin-bottom: 1%;
+}
+
+#Preise a {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+#Preise1 p3 {
+    font-weight: 550;
+    font-size: 16px;
+}
+
+#Preise1 table {
+    margin-top: 2%;
+}
+
+#Preise1 th {
+    font-weight: 550;
+    font-size: 18px;
+    background-color: #f2543a;
+    color: white;
+}
+
+#Preise1 tr {
+    font-weight: 500;
+    font-size: 15px;
+    
+}
+
+#Preise2 p2 {
+    display: block;
+    font-weight: 550;
+    font-size: 16px;
+}
+
+#Preise2 p3 {
+    font-weight: 550;
+    font-size: 16px;
+}
+
+#Preise2 table {
+    margin-top: 2%;
+}
+
+#Preise2 th {
+    font-weight: 550;
+    font-size: 18px;
+    background-color: #f2543a;
+    color: white;
+}
+
+#Preise2 tr {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+#Terminvergabe h1 {
+    font-size: 40px;
+    font-weight: 600;  
+    margin-bottom: 2%;
+    margin-top: 10%; 
+}
+
+/*# Terminvergabe p2 {
+    margin-bottom: 2%;
+} funzt nicht 
+#buttonLeft {
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+}
+
+#buttonRight {
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}*/
+#radioButtons {
+    margin-top: 2%;
+}
+
+#Anfahrtsrechner h1 {
+    font-size: 40px;
+    font-weight: 600;  
+    margin-bottom: 2%;
+    margin-top: 10%; 
+}
+
+#Anfahrtsrechner p2 {
+    font-weight: 550;
+    font-size: 16px;
+    
+}
+
+#Anfahrtsrechner FORM {
+    margin-top: 1%;
+}
+
+#Kontakt h1 {
+    font-size: 40px;
+    font-weight: 600;  
+    margin-bottom: 3%;
+    margin-top: 10%; 
+}
+
+#Kontakt p1 {
+    font-weight: 550;
+    font-size: 16px;
+    margin-bottom: 2%;
+}
+
+#Kontakt p2 {
+    display: block;
+    font-weight: 550;
+    font-size: 16px;
+    margin-bottom: 2%;
+}
+
+#Kontakt p3 {
+    font-weight: 550;
+    font-size: 16px;
+    display: block;
+}
+
+#Footer a {
+    color: white;
+    font-weight: 550;
+    font-size: 15px;
+}
+
+#Footer li {
+    display: block;
+}
+
+#Footer {
+    float: left;
+    clear: left;
+    
+}
+
+#FooterCon{
+    display: inline-block;
+}
+
+#Footer2 {
+    color: white;
+    float:right;
+}
+
+footer {
+    margin-top: 5%;
+    width: 100%;
+    background-color: #f2543a;
+    
+}
+
+.container-fluid1 {
+    margin-left: 8%;
+}
+
+.btn-round {
+    -webkit-border-radius: 3rem !important;
+    -moz-border-radius: 3rem; 
+    border-radius: 3rem;
+}
+
+/* Anfahrtskostenrechnerbutton bzw Zieleingabe */
+.bootstrap-iso, .bootstrap-iso form input.form-control, .bootstrap-iso form textarea.form-control, .bootstrap-iso form select.form-control{-webkit-border-radius: 3rem !important;-moz-border-radius: 3rem; border-radius: 3rem;}.bootstrap-iso .formden_header h2, .bootstrap-iso .formden_header p, .bootstrap-iso form{font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; color: black}.bootstrap-iso form button, .bootstrap-iso form button:hover{color: /*#f0ad4e*/ !important;}.bootstrap-iso .outline, .bootstrap-iso .outline:focus{background-color: transparent; border: 2px solid #f0ad4e} .bootstrap-iso .outline:hover{background-color: transparent; border: 2px solid#ffd576; color: #ffd576 !important}.bootstrap-iso .form-control:focus { border-color: #f8436a;  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(242, 84, 58, 0.6); box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(242, 84, 58, 0.6);} .asteriskField{color: red;}.bootstrap-iso form .input-group-addon {color:#555555; background-color: #f6f2f1; border-radius: 0px; padding-left:12px}
+
+/* ENDE Anfahrtskostenrechnerbutton etc */
+
+.footer-distributed{
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+
+    padding: 55px 50px;
+    margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+    width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+    color:  #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
+}
+
+.footer-distributed h3 span{
+    color:  #5383d3;
+}
+
+/* Footer Left */
+
+.footer-distributed .footer-left{
+    width: 35%;
+    margin-left: 23%;
+}
+
+.footer-distributed .footer-left i{
+    background-color:  #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-left i.fa-envelope{
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-left p{
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-left p span{
+    display:block;
+    font-weight: normal;
+    font-size:14px;
+    line-height:2;
+}
+
+.footer-distributed .footer-left p a{
+    color:  #5383d3;
+    text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+    width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+    line-height: 20px;
+    color:  #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+    display: block;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color:  #33383b;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+/*  Mobil */
+@media (min-width: 480px){
+.navbar-brand {
+    display: none;
+}
+}
+
+@media (max-width: 481px){
+    
+
+.navbar-collapse {
+    color: white;
+}
+#Head h2 {
+    margin-top: 10%;
+    font-size: 60px;
+}
+#Head p3 {
+    font-size: 20px !important;
+}
+    
+#Info h1 {
+    font-size: 60px;
+}    
+    
+h1 {
+    font-size: 40px !important;
+}
+#Kontakt p1, #Kontakt p2, #Kontakt p3 {
+    display: block;
+    margin-right: 30% !important;
+}  
+#Kontakt p3 {
+    margin-bottom: 2%;
+
+}    
+}
+
+@media (max-width: 880px) {
+
+    .footer-distributed{
+        font: bold 14px sans-serif;
+    }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-right{
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    /*.footer-distributed .footer-center i{
+        margin-left: 0;
+    }*/
+
+}
