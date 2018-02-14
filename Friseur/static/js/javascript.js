@@ -1,3 +1,5 @@
+// Google Maps calc
+
 var origin = "Malchingerstrase 1, Fuerstenfeldbruck, Deutschland",
     destination,
     service = new google.maps.DistanceMatrixService(),
@@ -50,3 +52,21 @@ function kmToEuro(km) {
         return(stArr[0] + " Euro");
     }
 }
+
+// Reservation
+
+$(function(){
+	$('#btnReservation').click(function(){
+		$.ajax({
+			url: '/reservation',
+			data: $('form').serialize(),
+			type: 'POST',
+			success: function(response){
+				console.log(response);
+			},
+			error: function(error){
+				console.log(error);
+			}
+		});
+	});
+});
