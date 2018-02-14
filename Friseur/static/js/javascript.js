@@ -50,5 +50,3 @@ function kmToEuro(km) {
         return(stArr[0] + " Euro");
     }
 }
-        
-        
